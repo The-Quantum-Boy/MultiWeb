@@ -1,0 +1,30 @@
+.card_container{
+    /* box-shadow: none !important; */
+}
+
+.card_body{
+    /* border: 1px solid red; */
+    padding: .2rem 0;
+    display: flex;
+    width: 100%;
+    min-height: 100px;
+    justify-content: center;
+    align-items: stretch;
+    cursor: pointer;
+}
+
+.link img{
+    width: 50px;
+    margin-right: 1rem;
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    align-items: center;
+    text-transform: uppercase;
+    word-wrap: break-word;
+}
